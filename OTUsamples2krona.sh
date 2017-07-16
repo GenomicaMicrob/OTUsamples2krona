@@ -3,6 +3,7 @@
 # DEPENDECIES: KronaTools 2.5
 # USAGE: script samples-tax.tsv
 # LAST REVISITED: 16 July 2017
+# https://github.com/GenomicaMicrob/OTUsamples2krona
 SCRIPT='OTUsamples2krona'
 VER='ver.0.2'
 display_help(){
