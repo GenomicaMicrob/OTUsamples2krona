@@ -14,7 +14,9 @@ chmod +x OTUsamples2krona.sh
 
 ### Usage ###
 
-`./OTUsamples2krona.sh otu.tsv`
+`./OTUsamples2krona.sh samples-tax.tsv`
+
+The test file `samples-tax.tsv` is also included.
 
 For help:
 
@@ -33,7 +35,7 @@ A	B	C	domain;phylum;class;order;family;genus;species
 9	0	66	Bacteria;Cyanobacteria;Chroobacteria;Chroococcales;Prochlorococcaceae;Prochlorococcus;BX548175_s
 ...
 ```
-From this example file, the script will create three html files in a subdirectory named krona. The sample name will appear at the center of the pie chart.
+From this example file (`samples-tax.tsv`, included), the script will create three html files in a subdirectory named krona. The sample name (A, B, or C) will appear at the center of the pie chart generated.
 
 If you use [QIIME](http://qiime.org), during the standard pipelines, the file `otu_table.biom` is produced, this file can be converted to the format needed with [biom](http://biom-format.org/index.html) (of course you have to have biom installed):
 
