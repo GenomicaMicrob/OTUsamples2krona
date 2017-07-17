@@ -16,7 +16,7 @@ chmod +x OTUsamples2krona.sh
 
 `./OTUsamples2krona.sh samples-tax.tsv`
 
-The test file `samples-tax.tsv` is also included.
+The test file `samples-tax.tsv` is also included. This file was created with [mg_classifier](https://github.com/GenomicaMicrob/mg_classifier) from samples from P. Schloss [Miseq SOP webpage](https://www.mothur.org/wiki/MiSeq_SOP). 
 
 For help:
 
@@ -35,7 +35,7 @@ A	B	C	domain;phylum;class;order;family;genus;species
 9	0	66	Bacteria;Cyanobacteria;Chroobacteria;Chroococcales;Prochlorococcaceae;Prochlorococcus;BX548175_s
 ...
 ```
-From this example file (`samples-tax.tsv`, included), the script will create three html files in a subdirectory named krona. The sample name (A, B, or C) will appear at the center of the pie chart generated.
+From this example file (`samples-tax.tsv`, included), the script will create three html files in a subdirectory named krona. The sample name will appear at the center of the pie chart generated.
 
 If you use [QIIME](http://qiime.org), during the standard pipelines, the file `otu_table.biom` is produced, this file can be converted to the format needed with [biom](http://biom-format.org/index.html) (of course you have to have biom installed):
 
