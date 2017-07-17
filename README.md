@@ -20,6 +20,8 @@ For help:
 
 `./OTUsamples2krona.sh -h`
 
+### OTU file ###
+
 The OTU file has to have the following format:
 The first line has the sample name (delimited by tabs) and a taxa structure (although this structure is not strictly necessary), from the second line downwards, the OTU values (delimited by tabs) and the taxonomy delimited by semicolons.
 ```
