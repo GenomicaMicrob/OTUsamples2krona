@@ -9,12 +9,12 @@ Clone this repository in you linux machine, make it executable and you are ready
 ```
 git clone https://github.com/GenomicaMicrob/OTUsamples2krona.git
 cd OTUsamples2krona
-chmod +x OTUsamples2krona.v0.2.2.sh
+chmod +x OTUsamples2krona.v0.2.3.sh
 ```
 
 ### Usage ###
 
-`./OTUsamples2krona.v0.2.2.sh samples-tax.tsv`
+`./OTUsamples2krona.v0.2.3.sh samples-tax.tsv`
 
 The test file `samples-tax.tsv` is also included. This file was created with [mg_classifier](https://github.com/GenomicaMicrob/mg_classifier) from samples from P. Schloss [Miseq SOP webpage](https://www.mothur.org/wiki/MiSeq_SOP). 
 
