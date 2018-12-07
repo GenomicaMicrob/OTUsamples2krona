@@ -11,6 +11,7 @@ git clone https://github.com/GenomicaMicrob/OTUsamples2krona.git
 cd OTUsamples2krona
 chmod +x OTUsamples2krona.v0.2.3.sh
 ```
+If you do not have git installed, just download the zip file, unzipped it and proceed as above.
 
 ### Usage ###
 
